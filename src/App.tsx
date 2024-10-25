@@ -1,11 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ProfileCard } from "./components/ProfileCard/ProfileCard";
 
 function App() {
   return (
     <div className="App">
-  hi
+      <ProfileCard/>
     </div>
   );
 }

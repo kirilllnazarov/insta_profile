@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { TopBar } from "../../layout/TopBar/TopBar";
 import { Main } from "../../layout/Main/Main";
 import { MenuBar } from "../../layout/MenuBar/MenuBar";
+import { theme } from "../../styles/Theme";
 
 export const ProfileCard = () => {
   return (
@@ -15,12 +16,13 @@ export const ProfileCard = () => {
 };
 
 const StyledProfileCard = styled.div`
-  /* background-color: black; */
+   background-color: ${theme.colors.secondary};
   width: 390px;
   max-width: 100%;
   height: 850px;
   margin: 0 auto;
   border: 2px solid black;
+  border-radius: 40px;
 `;
 
 const StyledDesktopLine= styled.div`

@@ -6,25 +6,23 @@ import { theme } from "../../styles/Theme";
 
 export const ProfileCard = () => {
   return (
-
     <StyledProfileCard>
       <TopBar />
-      <Main/>
-      <MenuBar/>
+      <Main />
+      <MenuBar />
     </StyledProfileCard>
   );
 };
 
 const StyledProfileCard = styled.div`
-   background-color: ${theme.colors.secondary};
-  width: 390px;
+  background-color: ${theme.colors.primary};
+  width: 394px;
   max-width: 100%;
   height: 850px;
   margin: 0 auto;
-  border: 2px solid black;
   border-radius: 40px;
+  position: relative;
+  overflow: hidden;
 `;
 
-const StyledDesktopLine= styled.div`
-outline: 1px solid red;
-`
+

@@ -12,7 +12,7 @@ export const Icon = ({ iconId, width, height, viewBox }: Props) => {
     <svg
       width={width || "30"}
       height={height || "30"}
-      viewBox={viewBox || "0 0 28 14"}
+      viewBox={viewBox || "0 0 30 30"}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

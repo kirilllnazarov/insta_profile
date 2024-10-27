@@ -11,15 +11,18 @@ export const Profile = () => {
   return (
     <StyledProfile>
       <Container>
-        <div>
+        <StyledProfileInfo>
           <Container>
             <FlexWrapper direction="column" justify="center" align="center">
               <StyledProfilePhoto src={photo} alt="Dmitry Mentor" />
               <StyledProfileTitle>Dmitriy Mentor</StyledProfileTitle>
               <StyledProfileNickname>@mentor</StyledProfileNickname>
             </FlexWrapper>
+            <StyledProfileShareArrow>
+              <Icon iconId="ShareFat" width="24" height="24" viewBox="0 0 24 24" />
+            </StyledProfileShareArrow>
           </Container>
-        </div>
+        </StyledProfileInfo>
         <SocialMetrics />
         <Container>
           <FlexWrapper gap="6px">
@@ -40,7 +43,10 @@ const StyledProfile = styled.div`
   width: 100%;
   height: 100%;
   padding-top: 16px;
-  background-color: ${theme.colors.primary};
+`;
+
+const StyledProfileInfo = styled.div`
+  position: relative;
 `;
 
 const StyledProfilePhoto = styled.img`
@@ -56,10 +62,17 @@ const StyledProfileNickname = styled.span`
   color: ${theme.colors.secondaryFont};
 `;
 
+const StyledProfileShareArrow = styled.div`
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+`;
+
 const StyledProfileText = styled.p`
   text-align: center;
-  font-size: 13px;
-  font-weight: 400;
-  color: #9f9f9f;
+  color: ${theme.colors.secondaryFont};
   padding: 20px 32px 32px;
 `;

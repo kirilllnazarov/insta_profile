@@ -37,7 +37,9 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'SF Pro Display', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: ${theme.colors.primaryFont}
+    color: ${theme.colors.primaryFont};
+    font-size: 13px;
+    font-weight: 400;
 }
 
     

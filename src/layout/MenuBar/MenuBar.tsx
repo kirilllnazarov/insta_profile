@@ -26,7 +26,7 @@ export const MenuBar = () => {
   );
 };
 
-const StyledMenuBar = styled.div`
+const StyledMenuBar = styled.section`
   background-color: ${theme.colors.primary};
   height: 82px;
   padding: 0 8px;
@@ -39,7 +39,6 @@ const StyledMenuBar = styled.div`
 `;
 const StyledMenuList = styled.div`
   height: 56px;
-  outline: 1px solid red;
   position: relative;
 
 &::after {

@@ -5,9 +5,7 @@ import { Container } from "../../components/Container";
 import { FlexWrapper } from "../../components/FlexWrapper";
 import Button from "../../components/Button";
 
-type Props = {};
-
-export const TopBar = (props: Props) => {
+export const TopBar = () => {
   return (
     <StyledTopBar>
       <StyledIslandBar>
@@ -45,6 +43,7 @@ const StyledTopBar = styled.section`
   height: 120px;
 `;
 const StyledIslandBar = styled.div`
+  background-color: ${theme.colors.secondary};
   height: 54px;
   padding: 18px 28px 14px 44px;
 `;
@@ -63,18 +62,15 @@ const StyledSpanTiny = styled.span`
 
 const StyledDesktopLine = styled.div`
   border-radius: 10px 10px 0px 0px;
-  /* background-color: ${theme.colors.secondary}; 
-opacity: 0.35; */
-  background-color: pink;
+  background-color: ${theme.colors.primaryFont};
+  opacity: 0.65;
   width: 360px;
   height: 10px;
-  margin: 0 auto; //?
+  margin: 0 auto;
 `;
 const StyledMainHeader = styled.div`
   width: 100%;
   height: 56px;
-  background-color: ${theme.colors.primary};
-  /* background-color: #7c5fa0; */
   border-radius: 10px 10px 0px 0px;
   padding-top: 10px;
 `;

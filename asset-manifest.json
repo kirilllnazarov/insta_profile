@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/insta_profile/static/js/main.f2920398.js",
+    "static/js/453.39513f40.chunk.js": "/insta_profile/static/js/453.39513f40.chunk.js",
+    "static/media/citynights.webp": "/insta_profile/static/media/citynights.427272e7e0109211ed75.webp",
+    "static/media/burger.webp": "/insta_profile/static/media/burger.5ae2ddcfc03142c7c82a.webp",
+    "static/media/shrimp.webp": "/insta_profile/static/media/shrimp.f8dfc649339a7ecd9710.webp",
+    "static/media/starbaks.webp": "/insta_profile/static/media/starbaks.bc46641d483486f77098.webp",
+    "static/media/adidas.webp": "/insta_profile/static/media/adidas.b004a188499bdf1491cd.webp",
+    "static/media/steak.webp": "/insta_profile/static/media/steak.f4c1368d7d61e68bbb5f.webp",
+    "static/media/icon-sprite.svg": "/insta_profile/static/media/icon-sprite.09e0750828cdf5b63db5e025af5c4752.svg",
+    "static/media/person_photo.webp": "/insta_profile/static/media/person_photo.1647a7f059ba4d4f528a.webp",
+    "index.html": "/insta_profile/index.html",
+    "main.f2920398.js.map": "/insta_profile/static/js/main.f2920398.js.map",
+    "453.39513f40.chunk.js.map": "/insta_profile/static/js/453.39513f40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f2920398.js"
+  ]
+}
